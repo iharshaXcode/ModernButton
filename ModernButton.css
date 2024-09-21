@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 80px;
+    width: 150px;
+    background-color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;  
+    
+    margin: 0 auto;
+    margin-top: 280px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+   
+}
+.box{
+    border: 1px solid black;
+    background-color:#e84949;
+    height: 80px;
+    width: 150px;
+    cursor: pointer;
+    
+
+}
+.box:hover{
+    animation-name: harsha;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in;
+    animation-direction: reverse; 
+    animation-fill-mode: forwards;
+}
+@keyframes harsha {
+   0%{
+    width: 0px;
+    background-color:aqua;
+   }
+   50%{
+    width: 50px;
+    /* background-color: red; */
+    background-color: black;
+   }
+
+   100%{
+    /* background-color: black; */
+    background-color: red;
+   }
+}
+.text{
+    position: absolute;
+    color: aliceblue;
+    font-size: larger;
+}
+/* from{
+    width: 1px;
+}
+to{
+    width: ;
+} */
